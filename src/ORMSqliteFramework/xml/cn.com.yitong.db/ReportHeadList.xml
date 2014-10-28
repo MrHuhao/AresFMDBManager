@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<database name="live">
+    <table name="ReportHeadList">
+        <column name="PK" type="INTEGER" key="primary" auto-increment="true"/>
+        <column name="CANORDER" type="VARCHAR" size="255" default="N/A"/>
+        <column name="COLSPAN" type="VARCHAR" size="255" default="N/A"/>
+        <column name="FORMAT" type="VARCHAR" size="255" default="N/A"/>
+        <column name="HEADFIXED" type="VARCHAR" size="255" default="N/A"/>
+        <column name="HEADNAME" type="VARCHAR" size="255" default="N/A"/>
+        <column name="ID" type="VARCHAR" size="255" default="N/A"/>
+        <column name="ISLEAFHEAD" type="VARCHAR" size="255" default="N/A"/>
+        <column name="LINENO" type="VARCHAR" size="255" default="N/A"/>
+        <column name="NUMORDER" type="VARCHAR" size="255" default="N/A"/>
+        <column name="PARENTID" type="VARCHAR" size="255" default="N/A"/>
+        <column name="TITLE" type="VARCHAR" size="255" default="N/A"/>
+        <column name="TYPECODE" type="VARCHAR" size="255" default="N/A"/>
+        <column name="WIDTH" type="VARCHAR" size="255" default="N/A"/>
+    </table>
+</database>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<database name="live">
+    <table name="ZHJYWHome">
+        <column name="PK" type="INTEGER" key="primary" auto-increment="true"/>
+        <column name="CRNDAT" type="VARCHAR" size="255" default="N/A"/>
+        <column name="INDCDE" type="VARCHAR" size="255" default="N/A"/>
+        <column name="ORGIDT" type="VARCHAR" size="255" default="N/A"/>
+        <column name="PER" type="VARCHAR" size="255" default="N/A"/>
+        <column name="VAL1" type="VARCHAR" size="255" default="N/A"/>
+        <column name="VAL2" type="VARCHAR" size="255" default="N/A"/>
+        <column name="VAL3" type="VARCHAR" size="255" default="N/A"/>
+        <column name="VAL4" type="VARCHAR" size="255" default="N/A"/>
+    </table>
+</database>

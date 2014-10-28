@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<database name="live">
+    <table name="T_CACHE_BUSI_BLOB">
+        <column name="PK" type="INTEGER" key="primary" auto-increment="true"/>
+        <column name="P_KEY" type="INTEGER" size="255" default="N/A"/>
+        <column name="PATH" type="VARCHAR" size="255" default="N/A"/>
+        <column name="CONTENT" type="VARCHAR" required="true"/>
+        <column name="CREATE_TIME" type="VARCHAR" required="true"/>
+        <foreign-key foreignTable="T_CACHE_BUSI">
+            <reference local="P_KEY" foreign="KEY"/>
+        </foreign-key>
+    </table>
+</database>

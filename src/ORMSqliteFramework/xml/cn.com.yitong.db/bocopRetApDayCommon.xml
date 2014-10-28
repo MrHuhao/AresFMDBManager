@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<database name="live">
+    <table name="bocopRetApDayCommon">
+        <column name="PK" type="INTEGER" key="primary" auto-increment="true"/>
+        <column name="CRNDAT" type="VARCHAR" size="255" default="N/A"/>
+        <column name="CURBAL" type="VARCHAR" size="255" default="N/A"/>
+        <column name="CURRAT" type="VARCHAR" size="255" default="N/A"/>
+        <column name="LSTDAYBAL" type="VARCHAR" size="255" default="N/A"/>
+        <column name="LSTDAYYTD" type="VARCHAR" size="255" default="N/A"/>
+        <column name="LSTMTHBAL" type="VARCHAR" size="255" default="N/A"/>
+        <column name="LSTMTHYTD" type="VARCHAR" size="255" default="N/A"/>
+        <column name="LSTYEARBAL" type="VARCHAR" size="255" default="N/A"/>
+        <column name="LSTYEARYTD" type="VARCHAR" size="255" default="N/A"/>
+        <column name="ORGIDT" type="VARCHAR" size="255" default="N/A"/>
+        <column name="REPCDE" type="VARCHAR" size="255" default="N/A"/>
+        <column name="YTDBAL" type="VARCHAR" size="255" default="N/A"/>
+        <column name="BRPLAN1" type="VARCHAR" size="255" default="N/A"/>
+        <column name="BRPLAN2" type="VARCHAR" size="255" default="N/A"/>
+        <column name="BRPLAN3" type="VARCHAR" size="255" default="N/A"/>
+        <column name="BALRAT1" type="VARCHAR" size="255" default="N/A"/>
+        <column name="BALRAT2" type="VARCHAR" size="255" default="N/A"/>
+        <column name="BALRAT3" type="VARCHAR" size="255" default="N/A"/>
+        <column name="CREATETIME" type="VARCHAR" size="255" default="N/A"/>
+    </table>
+</database>

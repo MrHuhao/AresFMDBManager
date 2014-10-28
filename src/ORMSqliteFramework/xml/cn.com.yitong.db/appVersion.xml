@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<database name="live">
+    <table name="appVersion">
+        <column name="PK" type="INTEGER" key="primary" auto-increment="true"/>
+        <column name="TIME" type="VARCHAR" size="255" default="N/A"/>
+        <column name="TURN" type="VARCHAR" size="255" default="N/A"/>
+    </table>
+</database>

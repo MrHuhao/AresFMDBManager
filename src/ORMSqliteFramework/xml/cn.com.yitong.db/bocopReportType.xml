@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<database name="live">
+    <table name="bocopReportType">
+        <column name="PK" type="INTEGER" key="primary" auto-increment="true"/>
+        <column name="CODE" type="VARCHAR" size="255" default="N/A"/>
+        <column name="ID" type="VARCHAR" size="255" default="N/A"/>
+        <column name="NAME" type="VARCHAR" size="255" default="N/A"/>
+         <column name="TIME" type="VARCHAR" size="255" default="N/A"/>
+         <column name="TMPL" type="VARCHAR" size="255" default="N/A"/>
+    </table>
+</database>

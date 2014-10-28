@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<database name="live">
+    <table name="T_CACHE_BUSI">
+        <column name="PK" type="INTEGER" key="primary" auto-increment="true"/>
+        <column name="CODE" type="VARCHAR" size="35" required="false"/>
+        <column name="P_CODE" type="VARCHAR" size="35" required="false"/>
+        <column name="KEY" type="VARCHAR" size="50" required="false"/>
+        <column name="CONTENT" type="TEXT" size="50" required="false"/>
+        <column name="CREATE_TIME" type="VARCHAR" size="50" required="false"/>
+        <column name="INVALID_TIME" type="VARCHAR" size="50" required="false"/>
+        <column name="USER_ID" type="VARCHAR" size="50" required="false"/>
+        <column name="IS_ENCRYPT" type="INTEGER"  required="false"/>
+        <column name="VERSION" type="INTEGER"  required="false"/>
+    </table>
+</database>

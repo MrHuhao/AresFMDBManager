@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<database name="live">
+    <table name="bocopRetLagbalChgCommon">
+        <column name="PK" type="INTEGER" key="primary" auto-increment="true"/>
+        <column name="CRNDAT" type="VARCHAR" size="255" default="N/A"/>
+        <column name="CUSNAM" type="VARCHAR" size="255" default="N/A"/>
+        <column name="CUSTNO" type="VARCHAR" size="255" default="N/A"/>
+        <column name="CUSTYP" type="VARCHAR" size="255" default="N/A"/>
+        <column name="ORGIDT" type="VARCHAR" size="255" default="N/A"/>
+        <column name="REPCDE" type="VARCHAR" size="255" default="N/A"/>
+        <column name="TRNAMT" type="VARCHAR" size="255" default="N/A"/>
+        <column name="TRNCDT" type="VARCHAR" size="255" default="N/A"/>
+        <column name="RANKID" type="VARCHAR" size="255" default="N/A"/>
+    </table>
+</database>

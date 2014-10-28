@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<database name="live">
+    <table name="bocopReportOffice">
+        <column name="PK" type="INTEGER" key="primary" auto-increment="true"/>
+        <column name="CODE" type="VARCHAR" size="255" default="N/A"/>
+        <column name="CREATE_DATE" type="VARCHAR" size="255" default="N/A"/>
+        <column name="DEL_FLAG" type="VARCHAR" size="255" default="N/A"/>
+        <column name="ID" type="VARCHAR" size="255" default="N/A"/>
+        <column name="NAME" type="VARCHAR" size="255" default="N/A"/>
+        <column name="PARENT_ID" type="VARCHAR" size="255" default="N/A"/>
+        <column name="PARENT_IDS" type="VARCHAR" size="255" default="N/A"/>
+        <column name="UPDATE_DATE" type="VARCHAR" size="255" default="N/A"/>
+        <column name="IS_LEAVE" type="VARCHAR" size="255" default="N/A"/>
+        <column name="ORG_TYP" type="VARCHAR" size="255" default="N/A"/>
+    </table>
+</database>
